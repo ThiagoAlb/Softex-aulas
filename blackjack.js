@@ -1,11 +1,11 @@
 const pergunta = require("readline-sync");
 
-let jogadorCarta1 = pergunta.questionInt("Valor da primeira carta do jogador: ");
-let bancaCarta1 = pergunta.questionInt("Valor da primeira carta da banca: ");
-let jogadorCarta2 = pergunta.questionInt("valor da segunda carta do jogador: ");
+let jogadorCarta1 = Math.floor((Math.random() * 10) + 1);
+let bancaCarta1 = Math.floor((Math.random() * 10) + 1);
+let jogadorCarta2 = Math.floor((Math.random() * 10) + 1);
 let somaJogador = jogadorCarta1 + jogadorCarta2;
-let bancaCarta2 = pergunta.questionInt("Valor da segunda carta da banca: ");
-let bancaCarta3 = pergunta.questionInt("Valor da terceira carta da banca: ")
+let bancaCarta2 = Math.floor((Math.random() * 10) + 1);
+let bancaCarta3 = Math.floor((Math.random() * 10) + 1);
 let somaBanca = bancaCarta1 + bancaCarta2 + bancaCarta3;
 
 if(somaJogador > 21) {
