@@ -23,10 +23,19 @@ console.log(numeros1.sort());
 const frutas = ['maçã', 'banana', 'laranja', 'uva', 'manga'];
 let indexFrutas = frutas.indexOf('laranja');
 console.log(`O índice da fruta laranja é: ${indexFrutas}`);
+
 //Crie uma função que receba um parâmetro e verifique se é um array ou não. A função deve retornar true se for um array e false caso contrário.
+
 function eArray(x) {
-    x.isArray()
-    
+    let testeArray = Array.isArray(x);
+    if (testeArray == true) {
+        console.log("É um array.")
+    } else {
+        console.log("Não é um array.")
+    }
 }
+
+eArray(frutas);
+
 
 
