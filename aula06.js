@@ -75,8 +75,6 @@ verificarPar(numero);
 //Crie uma função chamada imprimirLista que aceite um array como parâmetro e exiba cada elemento desse array
 //no console, um por um.
 
-const frutas = [];
-
 //let quantElementosArray = pergunta.questionInt("Quantos elementos você deseja colocar no array? ");
 
 for(let k = 0; k < quantElementosArray; k++) {
@@ -120,5 +118,9 @@ function calcularMedia() {
 
 //Crie uma função chamada maiorNumero que receba um array de números como parâmetro e exiba o maior número presente no array no console.
 
+let numbers = [1,2,3,4,5,6,7,8,9,14,13,12,10,11]
+function maiorNumero(array) {
+    
+}
 
-//
+//Escreva uma função
