@@ -30,11 +30,11 @@ console.log(somaRecursiva(n));
 
 //Escreva uma função chamada Fibonacci que receba um número n como parâmetro e retorne o n-ésimo termo da sequência
 //de Fibonacci. Lembre-se de implementar essa função de forma recursiva.
-let x = pergunta.questionInt('Digite um número ')
+let x = pergunta.questionInt('Digite um número: ')
 
 function fibonacci(x) {
-    if (n <= 2) {
-        return x - 1;
+    if (x <= 2) {
+        return 1;
     } else {
         return fibonacci(x - 1) + fibonacci(x - 2);
     }
